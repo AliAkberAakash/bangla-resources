@@ -1,4 +1,4 @@
-import 'package:bangla_programming_resources/ui/features/home/home_page.dart';
+import 'package:bangla_programming_resources/ui/features/list/list.dart';
 import 'package:bangla_programming_resources/utils/my_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Quicksand',
 
       ),
-      home: HomePage(),
+      home: DataList(),
     );
   }
 }
